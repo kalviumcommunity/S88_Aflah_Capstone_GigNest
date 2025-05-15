@@ -1,0 +1,26 @@
+{
+  "name": "s88_aflah_capstone_gignest",
+  "version": "1.0.0",
+  "description": "**AI-Powered Micro-Internship & Gig Platform for Students**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S88_Aflah_Capstone_GigNest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S88_Aflah_Capstone_GigNest/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S88_Aflah_Capstone_GigNest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.3"
+  }
+}

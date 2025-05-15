@@ -26,7 +26,7 @@ connectDB(); // Call it here
 
 // Your routes go below
 app.get('/', (req, res) => {
-  res.send('Hi Leela...');
+  res.send('API is running...');
 });
 
 // Start server

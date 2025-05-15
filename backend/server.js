@@ -15,9 +15,9 @@ const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
     });
-    console.log('✅ MongoDB connected successfully');
+    console.log('MongoDB connected successfully');
   } catch (err) {
-    console.error('❌ MongoDB connection failed:', err.message);
+    console.error('MongoDB connection failed:', err.message);
     process.exit(1); // Stop server if DB fails
   }
 };
@@ -26,7 +26,7 @@ connectDB(); // Call it here
 
 // Your routes go below
 app.get('/', (req, res) => {
-  res.send('API is running...');
+  res.send('Hi Leela...');
 });
 
 // Start server

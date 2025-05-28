@@ -14,6 +14,15 @@ router.post('/register', async (req, res) => {
   }
 });
 
+router.get('/', async (req, res) => {
+  try {
+    const gigs = await Gig.find();
+    res.status(200).json(gigs);   
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 
 
 export default router;

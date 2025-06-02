@@ -25,7 +25,6 @@ router.get('/gigs', async (req, res) => {
 
 
 
-// PUT /api/gigs/:id - Update a gig by ID
 router.put('/gigs/:id', async (req, res) => {
   try {
     const { id } = req.params;
